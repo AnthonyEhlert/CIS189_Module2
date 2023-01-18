@@ -9,7 +9,7 @@ The input is a user's first name, last name, and age. As well as three scores fo
 The output is a string displaying the user's last name, first name, age, and average score
 """
 
-#import constants.py for constant vairables
+#import constants.py for constant variables
 import constants
 
 # prompt user for first name and store it in first_name variable
@@ -57,15 +57,15 @@ avg_score = scores_total / constants.NUM_OF_SCORES
 # print(avg_score)
 
 # creation of output string and assigning to variable
-output_string = f"{last_name}, {first_name} age: {user_age_as_int} average grade: {avg_score: 5.2f}"
+output_string = f"{last_name}, {first_name} age: {user_age_as_int: 3d} average grade: {avg_score: 5.2f}"
 
 # print out of final output_string
 print(output_string)
 
 # observed outputs after manually running code
-# Test 1, TONY eHLERT 36 100 100 100 = "Ehlert, Tony age:36 average grade:  100.00"
-# Test 2, jane doe 33 95 100 105 = "Doe, Jane age: 33 average grade:  100.00"
-# Test 3, John Smith 25 70 80 90 = "Smith, John age: 25 average grade:  80.00"
-# Test 4, jIM BoB 100.25 65 80 90 = "Bob, Jim age: 100 average grade:  78.33"
+# Test 1, TONY eHLERT 36 100 100 100 = "Ehlert, Tony age:  36 average grade:  100.00"
+# Test 2, jane doe 33 95 100 105 = "Doe, Jane age:  33 average grade:  100.00"
+# Test 3, John Smith 25 70 80 90 = "Smith, John age:  25 average grade:  80.00"
+# Test 4, jIM BoB 100.25 65 80 90 = "Bob, Jim age:  100 average grade:  78.33"
 
 
